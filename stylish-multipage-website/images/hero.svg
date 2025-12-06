@@ -1,0 +1,42 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="500" rx="32" fill="#020617"/>
+<rect x="0.7" y="0.7" width="798.6" height="498.6" rx="31.3" stroke="url(#border)" stroke-opacity="0.7" stroke-width="1.4"/>
+<defs>
+<radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(112 0) rotate(71) scale(260 260)">
+<stop stop-color="#4F46E5"/>
+<stop offset="1" stop-color="#020617" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 40) rotate(120) scale(320 260)">
+<stop stop-color="#22C55E"/>
+<stop offset="1" stop-color="#020617" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 500) rotate(-90) scale(320 300)">
+<stop stop-color="#0EA5E9"/>
+<stop offset="1" stop-color="#020617" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="border" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+<stop stop-color="#60A5FA"/>
+<stop offset="0.5" stop-color="#A855F7"/>
+<stop offset="1" stop-color="#22C55E"/>
+</linearGradient>
+<linearGradient id="line" x1="80" y1="260" x2="720" y2="260" gradientUnits="userSpaceOnUse">
+<stop stop-color="#22C55E"/>
+<stop offset="0.5" stop-color="#3B82F6"/>
+<stop offset="1" stop-color="#A855F7"/>
+</linearGradient>
+</defs>
+<rect width="800" height="500" rx="32" fill="url(#glow1)" fill-opacity="0.9"/>
+<rect width="800" height="500" rx="32" fill="url(#glow2)" fill-opacity="0.75"/>
+<rect width="800" height="500" rx="32" fill="url(#glow3)" fill-opacity="0.8"/>
+<g opacity="0.18">
+  <circle cx="120" cy="80" r="46" stroke="#CBD5F5" stroke-dasharray="4 6"/>
+  <circle cx="680" cy="390" r="60" stroke="#BBF7D0" stroke-dasharray="4 6"/>
+</g>
+<g opacity="0.35">
+  <path d="M80 260C150 200 210 230 260 255C320 285 370 300 430 280C485 260 535 225 600 220C650 218 700 235 720 245" stroke="url(#line)" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="160" cy="230" r="3.5" fill="#38BDF8"/>
+  <circle cx="320" cy="275" r="3.5" fill="#22C55E"/>
+  <circle cx="480" cy="260" r="3.5" fill="#A855F7"/>
+  <circle cx="640" cy="230" r="3.5" fill="#FACC15"/>
+</g>
+</svg>
